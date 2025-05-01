@@ -2,9 +2,8 @@ import asyncio
 
 from cryptixd_client.modules.CryptixdClient import CryptixdClient
 
-
 async def main():
-    cryptixd_client = CryptixdClient("127.0.0.1", 16110)
+    cryptixd_client = CryptixdClient("127.0.0.1", 19201)
 
     # print the info message
     print(await cryptixd_client.get_info())

@@ -12,7 +12,7 @@ repository = 'https://github.com/cryptix-network/cryptix-python-grpc-client'
 keywords = ['cryptix', 'cryptixd', 'blockchain', 'blockdag', 'cytx', 'grpc']
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.10"
 grpcio = "^1.62.1"
 protobuf = "^4.21.6"
 
